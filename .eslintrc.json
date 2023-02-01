@@ -1,0 +1,36 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended",
+        "plugin:@typescript-eslint/recommended"
+    ],
+    "overrides": [
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "plugins": [
+        "react",
+        "@typescript-eslint"
+    ],
+    "rules": {
+        "indent": [ "error", 2 ],
+        "object-curly-spacing": [ "error", "always" ],
+        "semi": [ "error", "never" ],
+        "array-bracket-spacing": [ "error", "always" ],
+        "no-multi-spaces": "error",
+        "space-in-parens": "error",
+        "comma-spacing": "error",
+        "key-spacing": "error",
+        "no-multiple-empty-lines": ["error", { "max": 1}],
+        "jsx-a11y/alt-text": "off",
+        "quotes": ["error", "double"],
+        "jsx-quotes": ["error", "prefer-double"],
+        "react/react-in-jsx-scope": "off"
+      }
+}
